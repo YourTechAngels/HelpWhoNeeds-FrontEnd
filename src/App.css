@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/**
+* Header CSS
+*/
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header ul.mui-list--inline {
+  margin-bottom: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header table {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.purple-col {
+  background-color: blueviolet;
+}
+
+/**
+ * Content CSS
+ */
+
+#content-wrapper {
+  min-height: 100%;
+  /* sticky footer */
+  box-sizing: border-box;
+  margin-bottom: -50px;
+  padding-bottom: 50px;
+}
+
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+span {
+  margin: 0 10px;
+}
+
+/**
+ * Footer CSS
+ */
+
+.push {
+  height: 50px;
+}
+
+footer {
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 50px;
+  background-color: #eee;
+  border-top: 1px solid #e0e0e0;
+}
+/*Registration Page css*/
+main {
+margin-top:1px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-right: 20px;
+      
+}
+
+input, button  {
+  margin-bottom: 10px;
+  white-space:nowrap;
+}
+
+
+form {
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid black;
+}
+
+#submit-button {
+  border:2px;
+  font-weight: bold;
+  margin-top:10px;
+}
+/*Login form*/
+.login-form {
+  background-color: white;
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+  border: 0px;
+
+}
+
+#Search-button{
+  border:2px;
+  font-weight: bold;
+  margin-top:25px;
 }
