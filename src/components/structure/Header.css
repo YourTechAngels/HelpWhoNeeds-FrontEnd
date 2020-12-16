@@ -1,0 +1,24 @@
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+header ul.mui-list--inline {
+    margin-bottom: 0;
+}
+
+header a {
+    color: white;
+}
+
+header table {
+    width: 100%;
+}
+
+.purple-col {
+    background-color: blueviolet;
+}

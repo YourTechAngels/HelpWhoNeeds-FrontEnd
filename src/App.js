@@ -1,25 +1,11 @@
-import logo from './logo.svg';
+import Header from './components/structure/Header'
+import Footer from './components/structure/Footer'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="mui-appbar mui--z1 purple-col">
-
-        <div className="mui-container">
-          <table>
-            <tr className="mui--appbar-height">
-              <td className="mui--text-title">Help Who Needs</td>
-              <td className="mui--text-right">
-                <ul className="mui-list--inline mui--text-body2">
-                  <li>About</li>
-                  <li>Contact</li>
-                </ul>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </header>
+      <Header />
       <div id="content-wrapper" className="mui--text-center">
 
         <div className="mui--appbar-height"></div>
@@ -36,11 +22,7 @@ function App() {
         <button className="mui-btn mui-btn--raised" onclick="location.href='Registration.html'">I can Help</button>
         <div className="push"></div>
       </div>
-      <footer>
-        <div className="mui-container mui--text-center">
-          Made by <a href="https://github.com/YourTechAngels">YourTechAngels</a>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
