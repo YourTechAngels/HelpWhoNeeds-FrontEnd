@@ -1,4 +1,5 @@
 import './Header.css';
+import NavigationBar from './NavigationBar';
 
 function Header() {
     return (
@@ -9,10 +10,7 @@ function Header() {
                     <tr className="mui--appbar-height">
                         <td className="mui--text-title">Help Who Needs</td>
                         <td className="mui--text-right">
-                            <ul className="mui-list--inline mui--text-body2">
-                                <li>About</li>
-                                <li>Contact</li>
-                            </ul>
+                           <NavigationBar />
                         </td>
                     </tr>
                 </table>
