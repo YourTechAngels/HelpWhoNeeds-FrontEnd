@@ -1,5 +1,6 @@
 import Header from './components/structure/Header'
 import Footer from './components/structure/Footer'
+import Button from './components/structure/Button'
 import './App.css';
 
 function App() {
@@ -17,9 +18,9 @@ function App() {
           appropriate measures in place. We hope this app brings some comfort and relief to the users with a 
           sense of moral and social obligation.
     </p>
-        <button className="mui-btn mui-btn--raised" onclick="location.href='Login.html'">I need Help</button>
-        <button className="mui-btn mui-btn--raised" onclick="location.href='Registration.html'">I can Help</button>
-        <div className="push"></div>
+      <Button label='I need Help'/>
+      <Button label ='I can Help' /> 
+      <div className="push"></div>
       </div>
       <Footer />
     </div>
