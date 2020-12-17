@@ -10,13 +10,12 @@ function App() {
 
         <div className="mui--appbar-height"></div>
         <h1>Help Who Needs</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere blanditiis aspernatur animi, voluptatem
-        labore nostrum nihil modi temporibus error eum!
-        Molestiae voluptas voluptatem possimus libero cupiditate neque facilis architecto obcaecati.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempore dolore deleniti quaerat,
-        doloribus consequuntur.
-        Facere dicta, minus temporibus in laborum, repellat praesentium maxime eum excepturi autem non!
-        Obcaecati, veritatis!
+        <p>Our TechForGood project aims to match a volunteer with a vulnerable person who is shielding 
+          in these unprecedented times. Hence our application is called HelpWhoNeeds. The app will aim 
+          to match a volunteer with a vulnerable person in their immediate local area helping with chores 
+          such as shopping, GP visits, prescriptions, dog walking or just some social contact with the 
+          appropriate measures in place. We hope this app brings some comfort and relief to the users with a 
+          sense of moral and social obligation.
     </p>
         <button className="mui-btn mui-btn--raised" onclick="location.href='Login.html'">I need Help</button>
         <button className="mui-btn mui-btn--raised" onclick="location.href='Registration.html'">I can Help</button>
